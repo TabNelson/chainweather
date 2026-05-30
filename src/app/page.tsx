@@ -627,15 +627,11 @@ export default function ChainWeatherApp() {
             </div>
 
             <div className="hidden rounded-[2rem] border border-white/55 bg-white/50 p-5 backdrop-blur-2xl lg:block">
-              <BroadcastCard
-                compact
-                isWriting={isWriting}
-                mood={mood}
-                selectedState={selectedState}
-                setMood={setMood}
-                setSelectedState={setSelectedState}
-                onBroadcast={broadcastWeather}
-              />
+              <p className="text-sm font-bold uppercase text-slate-600">Base Ready</p>
+              <p className="mt-2 text-2xl font-black text-slate-950">EOA writes only</p>
+              <p className="mt-3 text-sm font-medium text-slate-700">
+                Coinbase Wallet and injected wallets connect without WalletConnect.
+              </p>
             </div>
           </aside>
         </section>
