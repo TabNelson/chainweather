@@ -174,3 +174,12 @@ Run the production build locally if needed:
 
 ```bash
 npm run start
+```
+
+Confirm the Base attribution metadata is present before publishing.
+
+Confirm `NEXT_PUBLIC_BASE_BUILDER_DATA_SUFFIX` is set correctly for the target deployment.
+
+## Maintenance
+
+Keep contract interaction code aligned with the deployed contract ABI.
