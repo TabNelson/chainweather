@@ -86,3 +86,12 @@ NEXT_PUBLIC_BASE_BUILDER_DATA_SUFFIX=0x
 ```
 
 Keep the placeholder until the final builder code is issued.
+
+## Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/TabNelson/chainweather.git
+cd chainweather
+```
