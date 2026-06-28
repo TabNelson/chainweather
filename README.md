@@ -47,3 +47,12 @@ The app interacts with these contract functions:
 - `setWeather(string state, string mood)`
 - `pingWeather(string state, string mood)`
 - `resetWeather()`
+- `currentWeather(address user)`
+- `historyCount(address user)`
+
+## Project Structure
+
+Key files referenced by the app include:
+
+- `src/app/layout.tsx`
+- `src/app/page.tsx`
