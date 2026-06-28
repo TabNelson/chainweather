@@ -115,3 +115,13 @@ Add the builder data suffix when it is available:
 ```bash
 NEXT_PUBLIC_BASE_BUILDER_DATA_SUFFIX=0x...
 ```
+
+Before the builder code is issued, the value can remain:
+
+```bash
+NEXT_PUBLIC_BASE_BUILDER_DATA_SUFFIX=0x
+```
+
+## Development
+
+Start the local development server:
