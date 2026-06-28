@@ -105,3 +105,13 @@ npm install
 Create a local environment file if needed:
 
 ```bash
+cp .env.example .env.local
+```
+
+If no example file is present, create `.env.local` manually.
+
+Add the builder data suffix when it is available:
+
+```bash
+NEXT_PUBLIC_BASE_BUILDER_DATA_SUFFIX=0x...
+```
