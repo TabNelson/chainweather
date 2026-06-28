@@ -66,3 +66,13 @@ Key files referenced by the app include:
 Offchain attribution is configured in `src/app/layout.tsx`:
 
 ```tsx
+<meta name="base:app_id" content="" />
+```
+
+After Base verification, replace the empty value with the issued app id and redeploy.
+
+Onchain attribution is passed explicitly to each contract write through `dataSuffix` in `src/app/page.tsx`.
+
+Set the final encoded builder code with:
+
+```bash
