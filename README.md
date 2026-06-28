@@ -27,3 +27,13 @@ It is designed as a lightweight MiniApp with a clear onchain interaction model.
 - Base attribution support through app metadata and write data.
 
 ## Stack
+
+- Next.js App Router
+- TypeScript
+- Wagmi
+- Viem
+- Base mainnet
+
+## Contract
+
+ChainWeather uses the following Base mainnet contract:
