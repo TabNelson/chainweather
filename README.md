@@ -56,3 +56,13 @@ Key files referenced by the app include:
 
 - `src/app/layout.tsx`
 - `src/app/page.tsx`
+
+`src/app/layout.tsx` contains the MiniApp metadata used for Base attribution.
+
+`src/app/page.tsx` contains the primary page logic and contract write configuration.
+
+## Base Attribution
+
+Offchain attribution is configured in `src/app/layout.tsx`:
+
+```tsx
