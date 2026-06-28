@@ -134,3 +134,12 @@ Open the local app in your browser:
 
 ```bash
 http://localhost:3000
+```
+
+Use the app interface to submit weather and mood updates.
+
+Make sure your connected wallet is using Base mainnet when interacting with the deployed contract.
+
+## Usage
+
+Use `setWeather` to save a weather state and mood.
