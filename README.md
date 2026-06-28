@@ -37,3 +37,13 @@ It is designed as a lightweight MiniApp with a clear onchain interaction model.
 ## Contract
 
 ChainWeather uses the following Base mainnet contract:
+
+`0x43cf7e971879be966853ef6b811ab35Ccd99dbEf`
+
+## Contract Functions Used
+
+The app interacts with these contract functions:
+
+- `setWeather(string state, string mood)`
+- `pingWeather(string state, string mood)`
+- `resetWeather()`
