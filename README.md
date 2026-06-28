@@ -76,3 +76,13 @@ Onchain attribution is passed explicitly to each contract write through `dataSuf
 Set the final encoded builder code with:
 
 ```bash
+NEXT_PUBLIC_BASE_BUILDER_DATA_SUFFIX=0x...
+```
+
+The default placeholder is:
+
+```bash
+NEXT_PUBLIC_BASE_BUILDER_DATA_SUFFIX=0x
+```
+
+Keep the placeholder until the final builder code is issued.
