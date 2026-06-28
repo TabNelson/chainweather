@@ -17,3 +17,13 @@ The app focuses on three simple ideas:
 It is designed as a lightweight MiniApp with a clear onchain interaction model.
 
 ## Features
+
+- Onchain weather journaling.
+- Mood broadcasts paired with weather entries.
+- Community climate pulse interactions.
+- Read support for current weather by user address.
+- Read support for weather history count by user address.
+- Base mainnet contract integration.
+- Base attribution support through app metadata and write data.
+
+## Stack
