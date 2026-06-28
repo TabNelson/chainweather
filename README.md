@@ -125,3 +125,12 @@ NEXT_PUBLIC_BASE_BUILDER_DATA_SUFFIX=0x
 ## Development
 
 Start the local development server:
+
+```bash
+npm run dev
+```
+
+Open the local app in your browser:
+
+```bash
+http://localhost:3000
