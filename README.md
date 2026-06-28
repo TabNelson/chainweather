@@ -183,3 +183,13 @@ Confirm `NEXT_PUBLIC_BASE_BUILDER_DATA_SUFFIX` is set correctly for the target d
 ## Maintenance
 
 Keep contract interaction code aligned with the deployed contract ABI.
+
+Keep Base mainnet configuration consistent across Wagmi and Viem setup.
+
+Review attribution settings whenever Base verification details change.
+
+Avoid changing the contract address unless the app is intentionally migrated.
+
+## License
+
+No license information is included in the original project README.
