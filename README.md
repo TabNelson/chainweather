@@ -143,3 +143,13 @@ Make sure your connected wallet is using Base mainnet when interacting with the 
 ## Usage
 
 Use `setWeather` to save a weather state and mood.
+
+Use `pingWeather` to broadcast a weather state and mood update.
+
+Use `resetWeather` to clear the current weather state.
+
+Use `currentWeather` to read the current weather for a user address.
+
+Use `historyCount` to read how many weather entries are associated with a user address.
+
+## Configuration Notes
