@@ -95,3 +95,13 @@ Clone the repository:
 git clone https://github.com/TabNelson/chainweather.git
 cd chainweather
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a local environment file if needed:
+
+```bash
