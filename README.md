@@ -163,3 +163,14 @@ The builder data suffix should remain `0x` until the final encoded value is issu
 Redeploy the app after changing attribution metadata or environment configuration.
 
 ## Deployment Notes
+
+Build the app before deployment:
+
+```bash
+npm run build
+```
+
+Run the production build locally if needed:
+
+```bash
+npm run start
