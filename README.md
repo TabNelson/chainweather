@@ -153,3 +153,13 @@ Use `currentWeather` to read the current weather for a user address.
 Use `historyCount` to read how many weather entries are associated with a user address.
 
 ## Configuration Notes
+
+The contract address is currently hardcoded for Base mainnet usage.
+
+The Base app id in `src/app/layout.tsx` must be filled in after verification.
+
+The builder data suffix should remain `0x` until the final encoded value is issued.
+
+Redeploy the app after changing attribution metadata or environment configuration.
+
+## Deployment Notes
